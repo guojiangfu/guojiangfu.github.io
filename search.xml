@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>傻瓜式黑苹果安装教程</title>
+    <url>/2020/01/18/%E5%82%BB%E7%93%9C%E5%BC%8F%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>安装机型配置：小米air12.5 m3 7y30</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hexo快速入门教程</title>
+    <url>/2020/01/17/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post（创建新的post）"><a href="#Create-a-new-post（创建新的post）" class="headerlink" title="Create a new post（创建新的post）"></a>Create a new post（创建新的post）</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span>    (hexo n)</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server（启动hexo服务）"><a href="#Run-server（启动hexo服务）" class="headerlink" title="Run server（启动hexo服务）"></a>Run server（启动hexo服务）</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server    (hexo s)</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files（生成静态文件）"><a href="#Generate-static-files（生成静态文件）" class="headerlink" title="Generate static files（生成静态文件）"></a>Generate static files（生成静态文件）</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate   (hexo g)</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites（推送到云端）"><a href="#Deploy-to-remote-sites（推送到云端）" class="headerlink" title="Deploy to remote sites（推送到云端）"></a>Deploy to remote sites（推送到云端）</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy    (hexo d)</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
