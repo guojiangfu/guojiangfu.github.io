@@ -209,6 +209,114 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/02/CSS%E4%BA%8C%E6%AC%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="http://q4iddx50w.bkt.clouddn.com/PicGo/suixin.jpg">
+      <meta itemprop="name" content="随心">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="随心的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/02/02/CSS%E4%BA%8C%E6%AC%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">CSS二次学习笔记</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-02-02 11:55:13 / 修改时间：11:56:25" itemprop="dateCreated datePublished" datetime="2020-02-02T11:55:13+08:00">2020-02-02</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Web%E5%89%8D%E7%AB%AF/" itemprop="url" rel="index">
+                    <span itemprop="name">Web前端</span>
+                  </a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>7k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>6 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="1、精灵图"><a href="#1、精灵图" class="headerlink" title="1、精灵图"></a>1、精灵图</h3><p><strong>为什么需要精灵图</strong></p>
+<p>一个网页中往往会应用很多小的背景图像作为修饰,当网页中的图像过多时.服务器就会频繁地接收和发送请求图片。造成服务器请求压力过大,这将大大降低页面的加载速度。</p>
+<p>因此,为了有效地减少服务器接收和发送请求的次数,提高页面的加载速度，出现了CSS精灵技术(也称CSS Sprites. CSS雪碧)。</p>
+<p>核心原理:将网页中的一些小背景图像整合到一张大图中,这样服务器只需要-次请求就可以了。</p>
+<p><strong>使用精灵图核心:</strong></p>
+<ol>
+<li>精灵技术主要针对于背景图片使用。就是把多个小背景图片整合到一张大图片中；</li>
+<li>这个大图片也称为sprites精灵图或者雪碧图；</li>
+<li>移动背景图片位置，此时可以使用background-position；</li>
+<li>移动的距离就是这个目标图片的x和y坐标。注意网页中的坐标有所不同；</li>
+<li>因为一般情况下都是往上往左移动,所以数值是负值。</li>
+</ol>
+<p>示例：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">width: 60px;</span><br><span class="line">height: 60px;</span><br><span class="line">margin: 100px auto;</span><br><span class="line">background: url( images&#x2F;sprites . png) no-repeat -182px 0;</span><br></pre></td></tr></table></figure>
+<h3 id="2、字体图标"><a href="#2、字体图标" class="headerlink" title="2、字体图标"></a>2、字体图标</h3>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/02/02/CSS%E4%BA%8C%E6%AC%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+    <div>
+      
+    </div>
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/02/%E6%B5%AE%E5%8A%A8%E3%80%81%E5%B8%83%E5%B1%80%E3%80%81%E5%AE%9A%E4%BD%8D%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -857,7 +965,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -907,7 +1015,6 @@
   </div>
 
       </div>
-      /*网易云音乐*/
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=416892296&auto=0&height=66"></iframe>             
     </div>
   </aside>
@@ -934,13 +1041,13 @@
       <i class="fa fa-area-chart"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">38k</span>
+    <span title="站点总字数">45k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">34 分钟</span>
+    <span title="站点阅读时长">41 分钟</span>
 </div>
 <!--
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.2.0
